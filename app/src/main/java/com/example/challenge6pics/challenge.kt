@@ -39,7 +39,7 @@ fun getScreenHeight(): Int{
     return Resources.getSystem().displayMetrics.heightPixels
 }
 
-val surfaceWidth = getScreenWidth() * 0.10681
+val surfaceWidth = getScreenWidth() * 0.12151
 val surfaceHeight = getScreenHeight() * 0.1905
 
 @Preview
@@ -76,7 +76,7 @@ fun bidang1(){
                 alignment = Alignment.Center,
                 modifier = Modifier.padding(8.dp)
                     .size(86.dp)
-                    .clip(RoundedCornerShape(percent = 30)))
+                    .clip(CircleShape))
 
             Text(text = "Arknights",
                 fontSize = 16.sp,
@@ -103,7 +103,7 @@ fun bidang2(){
                 alignment = Alignment.Center,
                 modifier = Modifier.padding(8.dp)
                     .size(86.dp)
-                    .clip(RoundedCornerShape(percent = 30)))
+                    .clip(CircleShape))
 
             Text(text = "Genshin Impact",
                 fontSize = 16.sp,
@@ -131,7 +131,7 @@ fun bidang3(){
                 alignment = Alignment.Center,
                 modifier = Modifier.padding(8.dp)
                     .size(86.dp)
-                    .clip(RoundedCornerShape(percent = 30)))
+                    .clip(CircleShape))
 
             Text(text = "Honkai Impact 3",
                 fontSize = 16.sp,
@@ -160,7 +160,7 @@ fun bidang4(){
                 alignment = Alignment.Center,
                 modifier = Modifier.padding(8.dp)
                     .size(86.dp)
-                    .clip(RoundedCornerShape(percent = 30)))
+                    .clip(CircleShape))
 
             Text(text = "Artery Gear: Fusion",
                 fontSize = 16.sp,
@@ -188,7 +188,7 @@ fun bidang5(){
                 alignment = Alignment.Center,
                 modifier = Modifier.padding(8.dp)
                     .size(86.dp)
-                    .clip(RoundedCornerShape(percent = 30)))
+                    .clip(CircleShape))
 
             Text(text = "Tower of Fantasy",
                 fontSize = 16.sp,
@@ -216,7 +216,7 @@ fun bidang6(){
                 alignment = Alignment.Center,
                 modifier = Modifier.padding(8.dp)
                     .size(86.dp)
-                    .clip(RoundedCornerShape(percent = 30)))
+                    .clip(CircleShape))
 
             Text(text = "Project Sekai: Colorful Stage",
                 fontSize = 16.sp,
